@@ -1,0 +1,50 @@
+page-forms {
+    ion-content.content-md{
+        background: #323288;
+        h2, h4 {
+            color: white;
+            font-size: 4vw;
+            margin: 20px 5vw;
+        }
+        h4 { 
+            font-size: 3vw;
+            margin: auto;
+        }
+       
+        form { 
+            padding: 15px;
+            background: rgba(0,0,0,0.3);
+            ion-item.item-md{
+                background: rgba(255,255,255,.2);
+                font-size: 12px;
+                color: white;
+                padding-left: 10px;
+                ion-label.label-md { 
+                    color: white;
+                    font-size: 12px;
+                }
+                ion-input .text-input-md {
+                    margin-top: 4px;
+                    margin-bottom: 0px;
+                }
+            }
+            ion-item.invalid{
+                background: none;
+                padding: 0;
+                .item-inner {
+                    border: 0;
+                }
+                ion-label.label-md { 
+                    margin: 0;
+                    p {
+                        color: red;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+        .invalid-field {
+            color: red !important;
+        }
+    }
+}
