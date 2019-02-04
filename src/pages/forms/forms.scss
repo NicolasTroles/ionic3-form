@@ -14,6 +14,16 @@ page-forms {
         form { 
             padding: 15px;
             background: rgba(0,0,0,0.3);
+            .item-label-stacked .select-md{
+                padding-top: 0;
+                padding-bottom: 0;
+
+            }
+            button.button-md-primary{ 
+                background: transparent;
+                border: 1px solid white;
+                color: white;
+            }
             ion-item.item-md{
                 background: rgba(255,255,255,.2);
                 font-size: 12px;
@@ -27,6 +37,7 @@ page-forms {
                     margin-top: 4px;
                     margin-bottom: 0px;
                 }
+               
             }
             ion-item.invalid{
                 background: none;
